@@ -138,7 +138,7 @@ class App extends Component {
          <hr></hr>
         </h4>
           {this.state.toDos.filter(task => task.done)
-            .map((task) => <CompletedTasks task={task} handleClick={this.makeFavorite}
+            .map((task) => <CompletedTasks task={task} makeFavorite={this.makeFavorite}
             undoneTask={this.undoneTask}/>)}
         </div>
      </div>)

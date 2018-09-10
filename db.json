@@ -8,32 +8,32 @@
     },
     {
       "text": "Some Text2",
-      "done": false,
-      "star": false,
+      "done": true,
+      "star": true,
       "id": 2
     },
     {
       "text": "Some Text2",
       "done": false,
-      "star": false,
+      "star": true,
       "id": 3
     },
     {
       "text": "added",
-      "done": false,
+      "done": true,
       "id": 4,
-      "star": false
+      "star": true
     },
     {
       "text": "added2",
-      "done": true,
-      "star": false,
+      "done": false,
+      "star": true,
       "id": 5
     },
     {
       "text": "added3",
-      "done": true,
-      "star": false,
+      "done": false,
+      "star": true,
       "id": 6
     },
     {
@@ -51,12 +51,12 @@
     {
       "text": "add",
       "done": false,
-      "star": false,
+      "star": true,
       "id": 9
     },
     {
       "text": "fdsfsdfsd",
-      "done": true,
+      "done": false,
       "star": false,
       "id": 10
     }
