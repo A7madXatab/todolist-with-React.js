@@ -8,7 +8,7 @@
     },
     {
       "text": "Some Text2",
-      "done": true,
+      "done": false,
       "star": true,
       "id": 2
     },
@@ -20,7 +20,7 @@
     },
     {
       "text": "added",
-      "done": true,
+      "done": false,
       "id": 4,
       "star": true
     },
@@ -38,14 +38,14 @@
     },
     {
       "text": "add",
-      "done": true,
-      "star": false,
+      "done": false,
+      "star": true,
       "id": 7
     },
     {
       "text": "a",
-      "done": true,
-      "star": false,
+      "done": false,
+      "star": true,
       "id": 8
     },
     {

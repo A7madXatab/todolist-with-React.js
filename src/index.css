@@ -71,3 +71,6 @@ hr{
   background-color: lightgray;
   left: 0;
 }
+.done{
+  text-decoration:line-through;
+}

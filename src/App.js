@@ -36,7 +36,7 @@ class CompletedTasks extends React.Component
         <span><button onClick={() => this.props.undoneTask(this.props.task)}>
          <span><i class="fas fa-times"></i></span>
         </button>
-        {this.props.task.text}</span>
+        <span className="done">{this.props.task.text} </span></span>
         <span className="taskActions">
         <button className="fav" onClick={() => this.props.makeFavorite(this.props.task)}>
         {this.get()}</button>
