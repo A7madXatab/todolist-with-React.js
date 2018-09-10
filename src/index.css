@@ -1,0 +1,73 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+  background-image: url("download.jpg");
+  color:white
+}
+.wrapper{
+  width:90%;
+  margin: 10px auto;
+}
+.newTaskForm,.newTaskForm input{
+  width: 100%
+}
+input{
+  border-radius: 8px;
+  border-color: #000;
+}
+.float{
+  float: right;
+}
+.uncompletedList{
+  margin: 20px auto;
+}
+.task{
+  background-color: white;
+  color: #000;
+  border-bottom: 2px solid lightgray;
+}
+.taskName{
+  text-align: left;
+  font-family: "Poppins"
+}
+.taskActions{
+  float: right;
+}
+button,button:focus{
+  outline: none;
+  background-color: transparent;
+  border: none;
+}
+.fa-star.checked{
+  color:gold;
+}
+.fa-star{
+  color:lightgray
+}
+.fa-times{
+  color: red;
+}
+.fa-check-circle{
+  color:lightgrey;
+}
+.completedTasks{
+  margin:20px auto;
+}
+.center{
+  text-align: center;
+}
+.fa-times{
+  color:red
+}
+hr{
+  width: 201px;
+  position: relative;
+  background-color: lightgray;
+  left: 0;
+}
